@@ -18,7 +18,8 @@
  */
 var app = {
     // Application Constructor
-    initialize: function() {
+    initialize: function () {
+        alert('initialize');
         this.bindEvents();
     },
     // Bind Event Listeners
@@ -34,6 +35,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        alert('onDeviceReady');
         initPushwoosh();
     },
     // Update DOM on a Received Event
@@ -49,6 +51,7 @@ var app = {
     }
 };
 function initPushwoosh() {
+    alert('initPushwoosh');
     var pushNotification = window.plugins.pushNotification;
 
     //set push notification callback before we initialize the plugin
