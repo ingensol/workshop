@@ -413,7 +413,8 @@ function getDirections( index ) {
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
-   document.addEventListener("backbutton", onBackKey, false);
+    document.addEventListener("backbutton", onBackKey, false);
+    alert('application - onDeviceReady');
 }
 
 function onBackKey( event ) {
