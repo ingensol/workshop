@@ -34,7 +34,7 @@ function registerPushwooshAndroid() {
 			}
 
 			//and show alert
-			alert(title);
+			alert("Title = " +title);
 
 			//stopping geopushes
 			//pushNotification.stopGeoPushes();
