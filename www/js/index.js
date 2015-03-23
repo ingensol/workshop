@@ -65,7 +65,7 @@ var app = {
 
 window.plugins.flashlight.available(function (isAvailable) {
     if (isAvailable) {
-
+        alert("Flashlight available on this device");
         // switch on
         window.plugins.flashlight.toggle();  // success/error callbacks may be passed
 
