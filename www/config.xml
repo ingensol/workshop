@@ -58,6 +58,8 @@
 
     <!-- Pushwoosh plugin -->
     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
+    <!-- Flashlight plugin-->
+    <gap:plugin name="nl.x-services.plugins.flashlight" version="2.0.1" />
 
     <!-- Define app icon for each platform. -->
     <icon src="res/icon/ios/AppIcon_57.png" />

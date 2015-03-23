@@ -62,3 +62,19 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+window.plugins.flashlight.available(function (isAvailable) {
+    if (isAvailable) {
+
+        // switch on
+        window.plugins.flashlight.toggle();  // success/error callbacks may be passed
+
+        // switch off after 3 seconds
+        setTimeout(function () {
+            window.plugins.flashlight.toggle(); // success/error callbacks may be passed
+        }, 3000);
+
+    } else {
+        alert("Flashlight not available on this device");
+    }
+});
