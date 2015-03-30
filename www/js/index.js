@@ -63,7 +63,7 @@ var app = {
     }
 };
 
-/*window.plugins.flashlight.available(function (isAvailable) {
+window.plugins.flashlight.available(function (isAvailable) {
     if (isAvailable) {
         alert("Flashlight available on this device");
         // switch on
@@ -77,4 +77,4 @@ var app = {
     } else {
         alert("Flashlight not available on this device");
     }
-});*/
+});
